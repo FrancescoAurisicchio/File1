@@ -8,4 +8,9 @@ $link = mysqli_connect("mydatabase", "root", "pass");
     
     
     echo "Connect Successfully. Host info: " . mysqli_get_host_info($link);
-    
+    if($_SERVER['REQUEST_METHOD']==='GET'){
+        echo 'Method GET';
+    }
+    else{
+        echo 'Method diverso';
+    }
