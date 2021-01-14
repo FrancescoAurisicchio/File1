@@ -1,3 +1,4 @@
+<?php
 $link = mysqli_connect("mydatabase", "root", "pass");
     
     
@@ -7,3 +8,4 @@ $link = mysqli_connect("mydatabase", "root", "pass");
     
     
     echo "Connect Successfully. Host info: " . mysqli_get_host_info($link);
+    
